@@ -2552,7 +2552,7 @@ if not "P" in preload_model_policy:
     reload_needed = True
 else:
     wan_model, offloadobj, transformer = load_models(transformer_type)
-    # Comment below block, try 2
+    # Comment below block, try 3
     # if check_loras:
     #     setup_loras(transformer_type, transformer,  get_lora_dir(transformer_type), "", None)
     #     exit()
